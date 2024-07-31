@@ -2,7 +2,7 @@
 
     "builds": [{
 
-        "src": "django_portfolio/wsgi.py",
+        "src": "mywebsite/wsgi.py",
 
         "use": "@vercel/python",
 
@@ -16,7 +16,7 @@
 
             "src": "/(.*)",
 
-            "dest": "django_portfolio/wsgi.py"
+            "dest": "mywebsite/wsgi.py"
 
         }
 
