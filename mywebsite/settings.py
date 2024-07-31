@@ -121,7 +121,7 @@ USE_TZ = True
 MEDIA_URL = "/images/"
 MEDIA_ROOT = BASE_DIR / "media"
 
-STATIC_URL = '/static/'
+STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Enable gzip and Brotli compression
